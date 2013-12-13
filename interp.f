@@ -141,7 +141,8 @@ c     find factor for interpolation
       real x
       integer i, ndat
 !*********************************************************************
-      call IOshorten(nudata, filen)
+cJC      call IOshorten(nudata, filen)
+      open( nudata, file=filen, status='old', action='read')
       if(nh2p.gt.0) write(10,102) trim(filen)
       Do i=1,nheadr
         read(nudata,'(a)') header

@@ -2,12 +2,11 @@
       subroutine nofile(nuinit, callname, filen)
 !    This routine is called IFF a required data file cannot be opened
 
+      implicit none
       integer nuinit
       character (LEN = * ) callname
       CHARACTER (LEN = * ) filen
       CHARACTER (LEN = 120 ) mssg
-
-      implicit none
 
       mssg = 'required data file ' // TRIM(filen) // ' not found'
 !

@@ -1,5 +1,7 @@
 FC = /tools/g95/bin/g95
 
+SHELL=/bin/bash
+
 SOURCES_f = $(shell echo *.f)
 
 OBJS_f = $(SOURCES_f:.f=.o)
@@ -8,7 +10,7 @@ OBJS_COMMON_f = HE5err.o incfiles_default.o incfiles_stnd.o
 
 EXECUTABLE = mainEL_stnd.exe
 
-all: $(SOURCES_f)  $(EXECUTABLE) $(OBJS_f) $(OBJS_COMMON_f)
+all: $(SOURCES_f)  $(EXECUTABLE) $(OBJS_f) $(OBJS_COMMON_f) clean
 
 $(EXECUTABLE):$(OBJS_f) $(OBJS_COMMON_f)
 	$(FC) -o $(EXECUTABLE) $(OBJS_f) $(OBJS_COMMON_f)
@@ -25,7 +27,5 @@ incfiles_stnd.o: incfiles_stnd.for
 HE5err.o: HE5err.f90
 	$(FC) -c HE5err.f90
 
-#all: $(SOURCES_f)  $(EXECUTABLE) $(OBJS_f) $(OBJS_COMMON_f)
-
 clean:
-	rm *.o
+	@rm -rf *.o
