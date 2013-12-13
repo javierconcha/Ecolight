@@ -165,7 +165,8 @@ c********************************************************************
 c 
       If(kall.eq.0) then
 c      open list file to read in existing files
-       filen = surfdir(1:lenstr(surfdir) ) // 'nlist.txt'
+cJC       filen = surfdir(1:lenstr(surfdir) ) // 'nlist.txt'
+       filen = 'nlist.txt'
        open(nusrt, file=filen,status='old', err=999)
 c
        Do ii=1,mxn

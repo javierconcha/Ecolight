@@ -73,41 +73,53 @@ C
 C     ***  SPECIFY YOUR SYSTEM HERE:  Microsoft Windows (DOS style) or UNIX
 c
 c     For DOS machines: use backslash
-      sl='\ '
-      sysl=sl(1:1)
+cJC      sl='\ '
+cJC      sysl=sl(1:1)
 c     For UNIX machines: use slash
-c      bsl='/ '
-c      sysl=bsl(1:1)
+      bsl='/ '
+      sysl=bsl(1:1)
 C
 c
 c        The directory containing the input data files:
-         datadir = '..' // sysl // 'data' // sysl
+cJC         datadir = '..' // sysl // 'data' // sysl
+         datadir = './'
 c  
 c        The directory where digital output is to be archived:
-         digitdir = '..' // sysl // 'output' // sysl //
-     1              trim(whatIam(iam)) // sysl // 
-     2              'digital' // sysl
+cJC         digitdir = '..' // sysl // 'output' // sysl //
+cJC     1              trim(whatIam(iam)) // sysl // 
+cJC     2              'digital' // sysl
+
+         digitdir = './'
 c
 c        The directory where spreadsheet output is to be archived:
-         spreadir = '..' // sysl // 'output'  // sysl // 
-     1              trim(whatIam(iam)) // sysl // 
-     2              'excel' // sysl
+cJC         spreadir = '..' // sysl // 'output'  // sysl // 
+cJC     1              trim(whatIam(iam)) // sysl // 
+
+         spreadir = './'
 c
 c        The directory containing discretized windsurface files:
-         phasedir = '..' // sysl // 'data' // sysl // 'phasefun' // sysl
-     1              // trim(whatIam(iam)) // sysl
+cJC         phasedir = '..' // sysl // 'data' // sysl // 'phasefun' // sysl
+cJC     1              // trim(whatIam(iam)) // sysl
+
+         phasedir = './'
 c
 c        The directory containing discretized phase function files:
-         surfdir = '..' // sysl // 'data' // sysl // 'surfaces' // sysl
-     1              // trim(whatIam(iam)) // sysl
+cJC         surfdir = '..' // sysl // 'data' // sysl // 'surfaces' // sysl
+cJC     1              // trim(whatIam(iam)) // sysl
+
+         surfdir = './'
 c
 c        The directory containing bottom reflectance files:
-         bottdir = '..' // sysl // 'data' // sysl // 'botmrefl' // sysl
-c
+cJC         bottdir = '..' // sysl // 'data' // sysl // 'botmrefl' // sysl
+
+         bottdir = './'       
+
 c        The directory where Printout ASCII output is to be archived:
-         Pdir = '..' // sysl // 'output' // sysl //
-     1          trim(whatIam(iam)) // sysl // 
-     1          'Printout' // sysl
+cJC         Pdir = '..' // sysl // 'output' // sysl //
+cJC     1          trim(whatIam(iam)) // sysl // 
+cJC     1          'Printout' // sysl
+         Pdir = './'
+
 c
 c-----  ATMOSPHERIC CONDITIONS FOR G&C SKY IRRADIANCE MODEL  -------
 c
@@ -124,7 +136,9 @@ c     absorption coefficients for O2, O3, and H20.  To be read
 c     by routine lidata in grirrad.f:
 c      gcifile = '..' // sysl // 'data' // sysl // 'gcirrad.txt'
 c     by routine lidata_new in RADTRANX.f:
-      gcifile = '..' // sysl // 'data' // sysl // 'RADTRANX_dbase.txt'
+c      gcifile = '..' // sysl // 'data' // sysl // 'RADTRANX_dbase.txt'
+      gcifile = './RADTRANX_dbase.txt'
+
 c
       iein = 0                  ! compute irradiances
       iblw = 0                  ! above-surface values

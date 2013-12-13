@@ -50,7 +50,8 @@ c     GET text for index of refraction
 c
 c     CALL common routine to find bracketing Windspeed files
       lensfdir = lenstr(surfdir) 
-      surfname = surfdir(1:lensfdir) // 'windlist.txt'
+cJC      surfname = surfdir(1:lensfdir) // 'windlist.txt'
+      surfname = 'windlist.txt'
       call slctsurf(i1, i2, iexact, xinterp, windspd, surfname)
 c
 c     read the two bracketting windspeed files
@@ -67,9 +68,18 @@ c     concatenate the wind-speed character string with the data
 c     directory name to create the name of the file containing the
 c     surface data for the given wind speed
       lensfdir = lenstr(surfdir) 
-      surfname = surfdir(1:lensfdir) // 
-     1           'surfwind_' // char4 //
-     2           '.' // char2(1:lenchar2)
+cJC      surfname = surfdir(1:lensfdir) // 
+cJC     1           'surfwind_' // char4 //
+cJC     2           '.' // char2(1:lenchar2)
+
+cJC      surfname ='/home/jxc4005/hydrolight52Javier_install/'//
+cJC     1          'data/surfaces/Ecolight/' //
+cJC     2           'surfwind_' // char4 //
+cJC     3           '.' // char2(1:lenchar2)
+
+      surfname ='surfwind_' // char4 // 
+     1   '.' // char2(1:lenchar2)
+
 c
 c
       open(nusrt1,file=surfname, form='formatted',status='old', err=999)
@@ -113,9 +123,18 @@ c     concatenate the wind-speed character string with the data
 c     directory name to create the name of the file containing the
 c     surface data for the given wind speed
       lensfdir = lenstr(surfdir) 
-      surfname = surfdir(1:lensfdir) // 
-     1           'surfwind_' // char4 //
-     2           '.' // char2(1:lenchar2)
+cJC      surfname = surfdir(1:lensfdir) // 
+cJC     1           'surfwind_' // char4 //
+cJC     2           '.' // char2(1:lenchar2)
+
+cJC      surfname ='/home/jxc4005/hydrolight52Javier_install/'//
+cJC     1          'data/surfaces/Ecolight/' //
+cJC     2           'surfwind_' // char4 //
+cJC     3           '.' // char2(1:lenchar2)
+
+      surfname ='surfwind_' // char4 //
+     1          '.' // char2(1:lenchar2)
+
 !      write(10,*) 'opening #2: ',trim(surfname)
       open(nusrt2,file=surfname, form='formatted',status='old', err=999)
 
@@ -200,10 +219,12 @@ c
       real hat(mxhat,mxhat) 
 
 c	**** read in pairs of arrays
+cJC         read(nusrt,fmt='(a)') rtname     !unique to EL
          read(nusrt,fmt='(a)') rtname     !unique to EL
-	DO I=1,nhat
-	   READ(nusrt,404) (hat(I,J),J=1,nhat)
-	end do
+cCJ        rtname = nusrt
+      DO I=1,nhat
+        READ(nusrt,404) (hat(I,J),J=1,nhat)
+      end do
 
   404 format (10(e12.6,1x))
       end subroutine

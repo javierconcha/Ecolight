@@ -1,6 +1,6 @@
 FC = /tools/g95/bin/g95
 
-SHELL=/bin/bash
+FFLAGS  = -fsloppy-char
 
 SOURCES_f = $(shell echo *.f)
 
@@ -13,10 +13,10 @@ EXECUTABLE = mainEL_stnd.exe
 all: $(SOURCES_f)  $(EXECUTABLE) $(OBJS_f) $(OBJS_COMMON_f) clean
 
 $(EXECUTABLE):$(OBJS_f) $(OBJS_COMMON_f)
-	$(FC) -o $(EXECUTABLE) $(OBJS_f) $(OBJS_COMMON_f)
+	$(FC) -o $(EXECUTABLE) $(FFLAGS) $(OBJS_f) $(OBJS_COMMON_f)
 
 .f.o:
-	$(FC) -c $*.f
+	$(FC) -c $*.f $(FFLAGS)
 
 incfiles_default.o: incfiles_default.for
 	$(FC) -c incfiles_default.for
