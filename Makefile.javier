@@ -1,0 +1,34 @@
+FC = /tools/g95/bin/g95
+
+fFLAGS = -c
+
+LDFLAGS =
+
+SOURCES_f = $(shell echo *.f)
+
+OBJS_f = $(SOURCES_f:.f=.o)
+
+EXECUTABLE = mainEL_stnd.exe
+
+all: $(SOURCES_f)  $(EXECUTABLE) $(OBJS_f) HE5err.o incfiles_default.o incfiles_stnd.o
+
+$(EXECUTABLE):$(OBJS_f)
+	$(FC) -o $(EXECUTABLE) $(OBJS_f) HE5err.o incfiles_default.o incfiles_stnd.o
+
+.f.o:
+	$(FC) -c $*.f
+
+HE5err.o: HE5err.f90
+	$(FC) -c HE5err.f90
+
+incfiles_default.o: incfiles_default.for
+	$(FC) -c incfiles_default.for
+
+incfiles_stnd.o: incfiles_stnd.for
+	$(FC) -c incfiles_stnd.for
+
+#$(EXECUTABLE):$(OBJS_f)
+#	$(FC) -o $(EXECUTABLE) $(OBJS_f) HE5err.o incfiles_default.o incfiles_stnd.o
+
+clean:
+	rm *.o
