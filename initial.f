@@ -447,8 +447,10 @@ c     Note:  file name used if and only if ibbopt=0, otherwise dummy variable
          read(5,fmt='(a)') pfname(i)
          lenpfname = lenstr(pfname(i))
          lenpfdir = lenstr(phasedir)
-         pfname(i) = phasedir(1:lenpfdir) // 
-     1               pfname(i)(1:lenpfname)
+c         pfname(i) = phasedir(1:lenpfdir) // 
+c     1               pfname(i)(1:lenpfname)
+
+         pfname(i) = pfname(i)(1:lenpfname)
       end do
 c
 c.....RECORD GROUP 6:  Wavelength information
