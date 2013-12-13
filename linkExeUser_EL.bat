@@ -1,0 +1,1 @@
+lf95 *.obj -ml msvb -lib %WinDir%\system32\HE5info.lib -nomap -winconsole -out ..\mainEL_user.exe > link_user.log

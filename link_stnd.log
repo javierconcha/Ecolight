@@ -1,0 +1,316 @@
+Lahey/Fujitsu Fortran 95 Express Release 7.20.00  S/N: 00605957012795804
+Copyright (C) 1994-2009 Lahey Computer Systems.  All rights reserved.
+Copyright (C) 1998-2009 FUJITSU LIMITED. All rights reserved.
+Compiling program unit user_abmodel at line 1:
+Compiling program unit user_abscat at line 13:
+Compiling program unit user_acdomsub at line 29:
+Compiling program unit user_achlz at line 42:
+Compiling program unit user_skyirrad at line 57:
+Compiling program unit user_skyrad at line 69:
+Compiling program unit s0bioSub at line 81:
+Encountered 0 errors in file ..\common\incfiles_user.for.
+Compiling file ..\common\incfiles_user.for.
+Lahey/Fujitsu Fortran 95 Express Release 7.20.00  S/N: 00605957012795804
+Copyright (C) 1994-2009 Lahey Computer Systems.  All rights reserved.
+Copyright (C) 1998-2009 FUJITSU LIMITED. All rights reserved.
+Compiling program unit windows_h at line 1:
+Encountered 0 errors in file ..\common\windows.f90.
+Compiling file ..\common\windows.f90.
+Lahey/Fujitsu Fortran 95 Express Release 7.20.00  S/N: 00605957012795804
+Copyright (C) 1994-2009 Lahey Computer Systems.  All rights reserved.
+Copyright (C) 1998-2009 FUJITSU LIMITED. All rights reserved.
+Compiling program unit nofile at line 1:
+Compiling program unit HERR at line 16:
+Compiling program unit CLOSEALL at line 33:
+Encountered 0 errors in file ..\common\HE5err.f90.
+Compiling program unit windows_module at line 1:
+Compiling program unit IOshorten at line 14:
+Compiling program unit stoprun90 at line 53:
+Encountered 0 errors in file ..\common\IOshorten.f90.
+Compiling program unit windows_h at line 1:
+Encountered 0 errors in file ..\common\windows.f90.
+Compiling file ..\common\HE5err.f90.
+Compiling file ..\common\IOshorten.f90.
+Compiling file ..\common\windows.f90.
+Lahey/Fujitsu Fortran 95 Express Release 7.20.00  S/N: 00605957012795804
+Copyright (C) 1994-2009 Lahey Computer Systems.  All rights reserved.
+Copyright (C) 1998-2009 FUJITSU LIMITED. All rights reserved.
+Compiling program unit botmbc at line 1:
+Encountered 0 errors in file botmbc.f.
+Compiling program unit drtdzs at line 1:
+Encountered 0 errors in file drtdzs.f.
+Compiling program unit FillWave at line 1:
+Encountered 0 errors in file fillwave.f.
+Compiling program unit IamEL at line 1:
+Encountered 0 errors in file IamEL_EL.f.
+Compiling program unit infbotm at line 1:
+Encountered 0 errors in file infbotm.f.
+Compiling program unit inishrad at line 1:
+Encountered 0 errors in file inishrad.f.
+Compiling program unit initprintout at line 1:
+Compiling program unit pntBRDFbotm at line 91:
+Encountered 0 errors in file initprintout_EL.f.
+Compiling program unit irrad at line 1:
+Encountered 0 errors in file irrad_EL.f.
+Compiling program unit kfcn at line 1:
+Encountered 0 errors in file kfcn.f.
+Compiling program unit loadsurface at line 1:
+Compiling program unit gethat at line 175:
+Compiling program unit readhat at line 193:
+Encountered 0 errors in file loadsurface_EL.f.
+Compiling program unit main at line 1:
+Encountered 0 errors in file main_EL.f.
+Compiling program unit PNTGRID at line 1:
+Encountered 0 errors in file pntgrid_EL.f.
+Compiling program unit pradsel at line 1:
+Encountered 0 errors in file pradsel_EL.f.
+Compiling program unit QASKY at line 1:
+Encountered 0 errors in file qasky_EL.f.
+Compiling program unit QAG at line 1:
+Compiling program unit QAGE at line 197:
+Compiling program unit QK15 at line 550:
+Compiling program unit QK21 at line 722:
+Compiling program unit QK31 at line 904:
+Compiling program unit QK41 at line 1088:
+Compiling program unit QK51 at line 1283:
+Compiling program unit QK61 at line 1485:
+Compiling program unit QPSRT at line 1697:
+Encountered 0 errors in file quadrat.f.
+Compiling program unit RADIANCE at line 1:
+Encountered 0 errors in file radiance.f.
+Compiling program unit RADTRANX at line 1:
+Compiling program unit GCEd at line 147:
+Compiling program unit lidata_new at line 324:
+Compiling program unit atmodd at line 373:
+Compiling program unit navaer at line 486:
+Compiling program unit sfcrfl at line 556:
+Encountered 0 errors in file RADTRANX_EL.f.
+Compiling program unit RADw at line 1:
+Encountered 0 errors in file RADw.f.
+Compiling program unit RADzeta at line 1:
+Encountered 0 errors in file RADzeta.f.
+Compiling program unit rhotau at line 1:
+Encountered 0 errors in file rhotau.f.
+Compiling program unit riccati at line 1:
+Encountered 0 errors in file riccati.f.
+Compiling program unit SAVEDATA at line 1:
+Encountered 0 errors in file savedata_EL.f.
+Compiling program unit selpfbb at line 1:
+Encountered 0 errors in file selpfbb_EL.f.
+Compiling program unit sumsrc at line 1:
+Encountered 0 errors in file sources.f.
+Compiling program unit STORXCEL at line 1:
+Encountered 0 errors in file storexcel_EL.f.
+Compiling program unit kradpath at line 1:
+Compiling program unit synHL at line 7:
+Encountered 0 errors in file SYNEL_radanal.f.
+Compiling program unit varzmax at line 1:
+Encountered 0 errors in file varzmax.f.
+Compiling program unit wrfdisc at line 1:
+Encountered 0 errors in file wrfdisc.f.
+Compiling program unit writerad at line 1:
+Encountered 0 errors in file writerad_EL.f.
+Compiling file botmbc.f.
+Compiling file drtdzs.f.
+Compiling file fillwave.f.
+Compiling file IamEL_EL.f.
+Compiling file infbotm.f.
+Compiling file inishrad.f.
+Compiling file initprintout_EL.f.
+Compiling file irrad_EL.f.
+Compiling file kfcn.f.
+Compiling file loadsurface_EL.f.
+Compiling file main_EL.f.
+Compiling file pntgrid_EL.f.
+Compiling file pradsel_EL.f.
+Compiling file qasky_EL.f.
+Compiling file quadrat.f.
+Compiling file radiance.f.
+Compiling file RADTRANX_EL.f.
+Compiling file RADw.f.
+Compiling file RADzeta.f.
+Compiling file rhotau.f.
+Compiling file riccati.f.
+Compiling file savedata_EL.f.
+Compiling file selpfbb_EL.f.
+Compiling file sources.f.
+Compiling file storexcel_EL.f.
+Compiling file SYNEL_radanal.f.
+Compiling file varzmax.f.
+Compiling file wrfdisc.f.
+Compiling file writerad_EL.f.
+Lahey/Fujitsu Fortran 95 Express Release 7.20.00  S/N: 00605957012795804
+Copyright (C) 1994-2009 Lahey Computer Systems.  All rights reserved.
+Copyright (C) 1998-2009 FUJITSU LIMITED. All rights reserved.
+Options:
+-nap           -c             -nchk          -nchkglobal    -concc 
+-ndal          -dbl           -ndll          -nf95          -fix 
+-ng            -nin           -ninfo         -ninline       -li 
+-nlst          -nlong         -maxfatals 50  -ml msvb       -o1 
+-npause        -nprefetch     -nprivate      -pca           -nquad 
+-nsav          -nsse2         -staticlib     -nstaticlink   -stchk 
+-tpp           -trace         -ntrap         -unroll        -nvarheap 
+-nw            -nwide         -winconsole    -nwo           -nxref 
+-zero          -nzfm 
+
+Compiling program unit abmodel at line 1:
+Compiling program unit abscat at line 85:
+Compiling program unit acdomsub at line 119:
+Compiling program unit achlz at line 219:
+Compiling program unit skyirrad at line 295:
+Compiling program unit skyrad at line 369:
+Compiling program unit abacbb at line 391:
+Compiling program unit readac9 at line 404:
+Compiling program unit readac9F at line 451:
+Compiling program unit abcase1 at line 490:
+Compiling program unit abcase2 at line 240:
+Compiling program unit abconst at line 367:
+Compiling program unit abnewcase1 at line 66:
+Compiling program unit getAEnewcase1 at line 227:
+Compiling program unit abpure at line 347:
+Compiling program unit astar at line 44:
+Compiling program unit bstar at line 24:
+Compiling program unit Bfcalc at line 170:
+Compiling program unit chlzdata at line 26:
+Compiling program unit cdomdata at line 27:
+Compiling program unit conczdata at line 28:
+Compiling program unit minzdata at line 29:
+Compiling program unit pureH2O at line 30:
+Compiling program unit S0bdata at line 77:
+Compiling program unit wrfchl at line 34:
+Compiling program unit wrfcdom at line 44:
+Compiling program unit wrframan at line 99:
+Compiling program unit cosirrad at line 152:
+Compiling program unit cosrad at line 38:
+Compiling program unit get_o3_climat at line 39:
+Compiling program unit hcnrad at line 40:
+Compiling program unit irradat at line 41:
+Compiling program unit sunang at line 42:
+Compiling program unit getDynZ at line 74:
+Compiling program unit rbottom at line 46:
+Compiling program unit RADANAL at line 47:
+Compiling program unit cpright at line 149:
+Compiling program unit date_stamp at line 43:
+Compiling program unit julianday at line 156:
+Compiling program unit LENSTR at line 184:
+Compiling program unit getHE5 at line 210:
+Compiling program unit license at line 227:
+Compiling program unit yBounds at line 251:
+Compiling program unit Color at line 53:
+Compiling program unit RangeCheck at line 386:
+Compiling program unit RangeWarn at line 73:
+Compiling program unit WRTXCELS at line 147:
+Compiling program unit WRTXCELM at line 257:
+Compiling program unit INITIAL at line 683:
+Compiling program unit Secchi at line 1205:
+Compiling program unit SETDFLTS at line 242:
+Compiling program unit slctsurf at line 60:
+Compiling program unit getrefr at line 95:
+Compiling program unit checkrefr at line 140:
+Compiling program unit Surfn at line 223:
+Compiling program unit PAR at line 62:
+Compiling program unit PNTBC at line 280:
+Compiling program unit PNTDPF at line 41:
+Compiling program unit zetatoz at line 64:
+Compiling program unit beamc1 at line 74:
+Compiling program unit ztozeta at line 107:
+Compiling program unit beamcz at line 104:
+Compiling program unit isamax at line 66:
+Compiling program unit SGER at line 43:
+Compiling program unit sdot at line 203:
+Compiling program unit srot at line 251:
+Compiling program unit SGEMM at line 287:
+Compiling program unit SGEMV at line 635:
+Compiling program unit scopy at line 896:
+Compiling program unit saxpy at line 945:
+Compiling program unit snrm2 at line 992:
+Compiling program unit sscal at line 1120:
+Compiling program unit sswap at line 1162:
+Compiling program unit STRMM at line 1217:
+Compiling program unit STRMV at line 1575:
+Compiling program unit SGEEV at line 69:
+Compiling program unit SGEBAK at line 406:
+Compiling program unit SGEBAL at line 594:
+Compiling program unit SGEHRD at line 887:
+Compiling program unit SHSEQR at line 1129:
+Compiling program unit SLABAD at line 1583:
+Compiling program unit SLACPY at line 1639:
+Compiling program unit SLARTG at line 1727:
+Compiling program unit SLASCL at line 1816:
+Compiling program unit SORGHR at line 2084:
+Compiling program unit STREVC at line 2228:
+Compiling program unit XERBLA at line 3206:
+Compiling program unit LSAME at line 3251:
+Compiling program unit ILAENV at line 3336:
+Compiling program unit SLAMCH at line 3842:
+Compiling program unit SLAMC1 at line 3983:
+Compiling program unit SLAMC2 at line 4178:
+Compiling program unit SLAMC3 at line 4437:
+Compiling program unit SLAMC4 at line 4475:
+Compiling program unit SLAMC5 at line 4559:
+Compiling program unit SLANGE at line 4721:
+Compiling program unit SLAPY2 at line 4866:
+Compiling program unit SLALN2 at line 4920:
+Compiling program unit SLASSQ at line 5428:
+Compiling program unit SGEHD2 at line 5517:
+Compiling program unit SLAHQR at line 5667:
+Compiling program unit SLAHRD at line 6077:
+Compiling program unit SLANHS at line 6283:
+Compiling program unit SLARFB at line 6425:
+Compiling program unit SLARFG at line 7013:
+Compiling program unit SLARFX at line 7151:
+Compiling program unit SLASET at line 7789:
+Compiling program unit SORGQR at line 7904:
+Compiling program unit SORG2R at line 8112:
+Compiling program unit SLARFT at line 8243:
+Compiling program unit SLADIV at line 8461:
+Compiling program unit SLARF at line 8524:
+Compiling program unit SLANV2 at line 8640:
+Compiling program unit yinterp at line 8814:
+Compiling program unit getonGrid1 at line 53:
+Compiling program unit GridDat at line 92:
+Compiling program unit getndat at line 130:
+Compiling program unit getnwavac at line 164:
+Compiling program unit LoadDat at line 179:
+Compiling program unit checkDat at line 239:
+Compiling program unit checkDat2x at line 253:
+Compiling program unit checkiWav at line 268:
+Compiling program unit MATxMAT at line 71:
+Compiling program unit SGEFS at line 72:
+Compiling program unit SGESL at line 157:
+Compiling program unit SGECO at line 288:
+Compiling program unit SGEFA at line 495:
+Compiling program unit SASUM at line 611:
+Compiling program unit ode at line 73:
+Compiling program unit de at line 156:
+Compiling program unit step at line 304:
+Compiling program unit intrp at line 781:
+Compiling program unit P2ARAY at line 74:
+Compiling program unit P3ARAY at line 75:
+Compiling program unit XERROR at line 76:
+Compiling program unit XERRWV at line 56:
+Compiling program unit XERSAV at line 209:
+Compiling program unit XGETUA at line 313:
+Compiling program unit FDUMP at line 359:
+Compiling program unit I1MACH at line 383:
+Compiling program unit J4SAVE at line 1130:
+Compiling program unit XERABT at line 1181:
+Compiling program unit XERCTL at line 1213:
+Compiling program unit XERPRT at line 1260:
+Compiling program unit R1MACH at line 1294:
+Compiling program unit XERMSG at line 1514:
+Compiling program unit XERPRN at line 1877:
+Compiling program unit XERSVE at line 2107:
+Compiling program unit XERCNT at line 2262:
+Compiling program unit XERHLT at line 2321:
+Compiling program unit SPSORT at line 77:
+Compiling program unit SPPERM at line 270:
+Compiling program unit VECxMAT at line 78:
+Encountered 0 errors in file common_source.for.
+Compiling file common_source.for.
+Lahey/Fujitsu Fortran 95 Express Release 7.20.00  S/N: 00605957012795804
+Copyright (C) 1994-2009 Lahey Computer Systems.  All rights reserved.
+Copyright (C) 1998-2009 FUJITSU LIMITED. All rights reserved.
+Microsoft (R) Incremental Linker Version 6.00.8447
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
