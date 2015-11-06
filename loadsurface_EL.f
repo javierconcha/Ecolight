@@ -217,7 +217,10 @@ c	**** average values
 c
       integer nusrt, nhat
       real hat(mxhat,mxhat) 
+!*******************************************************
 
+      write(nurst,fmt='(a)') 'nurst = ',rtname
+!******************************************************  
 c	**** read in pairs of arrays
 cJC         read(nusrt,fmt='(a)') rtname     !unique to EL
          read(nusrt,fmt='(a)') rtname     !unique to EL
@@ -225,6 +228,6 @@ cCJ        rtname = nusrt
       DO I=1,nhat
         READ(nusrt,404) (hat(I,J),J=1,nhat)
       end do
-
+  
   404 format (10(e12.6,1x))
       end subroutine
